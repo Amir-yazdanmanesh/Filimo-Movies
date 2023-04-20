@@ -21,6 +21,8 @@
             <option value="$PROJECT_DIR$/domain/common-entity" />
             <option value="$PROJECT_DIR$/domain/common-jvm" />
             <option value="$PROJECT_DIR$/domain/repository" />
+            <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/movies" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
