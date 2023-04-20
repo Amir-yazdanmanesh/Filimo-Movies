@@ -21,3 +21,7 @@ include(
 include ':data'
 include ':data:network'
 include ':data:repository-impl'
+include ':domain'
+include ':domain:common-entity'
+include ':domain:common-jvm'
+include ':domain:repository'

@@ -17,6 +17,10 @@
             <option value="$PROJECT_DIR$/data" />
             <option value="$PROJECT_DIR$/data/network" />
             <option value="$PROJECT_DIR$/data/repository-impl" />
+            <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/domain/common-entity" />
+            <option value="$PROJECT_DIR$/domain/common-jvm" />
+            <option value="$PROJECT_DIR$/domain/repository" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
