@@ -16,15 +16,14 @@ rootProject.name = "Filimo"
 include(
         ":app",
         ':core',
+        ":features:home",
+        ":features:movies",
+        ":features:movie",
+        ":navigator",
+        ":data:cache",
+        ":data:network",
+        ":data:repository-impl",
+        ":domain:common-jvm",
+        ":domain:repository",
+        ":domain:common-entity"
 )
-
-include ':data'
-include ':data:network'
-include ':data:repository-impl'
-include ':domain'
-include ':domain:common-entity'
-include ':domain:common-jvm'
-include ':domain:repository'
-include ':features'
-include ':features:movies'
-include ':navigator'
