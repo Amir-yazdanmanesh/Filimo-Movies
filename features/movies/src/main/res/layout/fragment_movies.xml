@@ -110,7 +110,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/app_toolbar"
-            tools:listitem="@layout/movie_view_holder" />
+            tools:listitem="@layout/view_holder_movie" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>
