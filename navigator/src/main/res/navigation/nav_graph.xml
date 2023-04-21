@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
     app:startDestination="@id/moviesFragment">
+
+
     <fragment android:id="@+id/moviesFragment"
         android:label=""
-        android:name="com.emamagic.movies.MoviesFragment">
+        android:name="com.test.movies.MoviesFragment">
         <argument
             android:name="category"
             app:argType="string" />
-        <action
-            android:id="@+id/action_moviesFragment_to_movieFragment"
-            app:destination="@id/movieFragment" />
+
     </fragment>
 
 </navigation>
