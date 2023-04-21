@@ -64,8 +64,6 @@ object Libs {
     const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
     const val glide_kapt = "com.github.bumptech.glide:compiler:${Versions.glide}"
 
-    //Tests
-    const val mockito = "org.mockito.kotlin:mockito-kotlin:${Versions.mokito}"
-    const val mockk = "io.mockk:mockk:${Versions.mockk}"
+
 
 }
