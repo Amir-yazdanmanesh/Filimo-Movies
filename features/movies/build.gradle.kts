@@ -12,4 +12,5 @@ dependencies {
     implementation (Libs.shimmer)
     testImplementation(Tests.mockito)
     testImplementation(Tests.mockk)
+    testImplementation(Tests.coroutines_test)
 }
