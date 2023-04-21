@@ -4,7 +4,6 @@ apply from: "$rootDir/android-core-build.gradle"
 
 android {
     compileSdk Android.compileSdk
-    namespace = Android.applicationId
 
     defaultConfig {
         minSdk Android.minSdk
