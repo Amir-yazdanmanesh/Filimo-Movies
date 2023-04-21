@@ -52,12 +52,24 @@ android {
 }
 
 dependencies {
+
+    implementation(project(Modules.network))
+    implementation(project(Modules.repository))
+    implementation(project(Modules.core))
+    implementation(project(Modules.repositoryImpl))
+
+
+    // Features
+    implementation(project(Modules.movies))
+
+
     implementation(Libs.multidex)
     implementation(Libs.dagger)
     kapt(Libs.dagger_kapt)
     implementation(Libs.navigation_component_fragment)
     implementation(Libs.retrofit)
     implementation(Libs.logging_interceptor)
+
 }
 
 kapt {
