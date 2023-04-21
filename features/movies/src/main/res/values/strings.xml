@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="filimo">Filimo</string>
+    <string name="empty_list_text">برای جست و جوی فیلم مورد علاقه خود, نام یا قسمتی از نام آن را وارد کنید</string>
+    <string name="movie_not_found"> جستجو شما نتیجه‌ای نداشت</string>
+    <string name="search">جستجو</string>
+</resources>
