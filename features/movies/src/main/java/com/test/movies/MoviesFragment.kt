@@ -7,13 +7,13 @@ import android.view.View
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import com.test.core.base.BaseFragmentRedux
-import com.test.filimo.databinding.FragmentMoviesBinding
-import extension.findComponent
-import extension.gone
-import extension.onQueryTextListener
-import extension.visible
+import com.test.core.extension.findComponent
+import com.test.core.extension.gone
+import com.test.core.extension.onQueryTextListener
+import com.test.core.extension.visible
 import com.test.movies.contract.MoviesAction
 import com.test.movies.contract.MoviesState
+import com.test.movies.databinding.FragmentMoviesBinding
 import com.test.movies.di.MoviesComponentProvider
 import java.util.*
 

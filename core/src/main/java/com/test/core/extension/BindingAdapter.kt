@@ -1,4 +1,4 @@
-package extension
+package com.test.core.extension
 
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter

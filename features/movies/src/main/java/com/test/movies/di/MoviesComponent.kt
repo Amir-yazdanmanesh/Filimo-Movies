@@ -2,7 +2,7 @@ package com.test.movies.di
 
 import com.test.movies.MoviesFragment
 import dagger.Subcomponent
-import utils.ViewModelScope
+import com.test.core.utils.ViewModelScope
 
 @ViewModelScope
 @Subcomponent(modules = [ViewModelModule::class])

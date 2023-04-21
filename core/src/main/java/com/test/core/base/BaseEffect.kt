@@ -1,6 +1,6 @@
 package com.test.core.base
 
-import utils.ToastyMode
+import com.test.core.utils.ToastyMode
 
 sealed interface BaseEffect {
     // single event/single action to action happened once

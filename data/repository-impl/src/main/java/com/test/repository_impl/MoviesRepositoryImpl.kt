@@ -1,11 +1,11 @@
 package com.test.repository_impl
 
 
+import com.test.MoviesRepository
 import com.test.common_entity.MoviesList
 import com.test.common_jvm.ResultWrapper
-import com.test.repository.MoviesRepository
-import networkWrapper.NetworkWrapper
-import service.MovieService
+import com.test.network.networkWrapper.NetworkWrapper
+import com.test.network.service.MovieService
 import javax.inject.Inject
 import javax.inject.Singleton
 

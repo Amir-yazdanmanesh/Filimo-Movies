@@ -6,7 +6,7 @@ import com.test.core.base.Store
 
 import com.test.movies.contract.MoviesAction
 import com.test.movies.contract.MoviesState
-import interactor.MoviesUseCase
+import com.test.core.interactor.MoviesUseCase
 import javax.inject.Inject
 
 class MoviesMiddleware @Inject constructor(

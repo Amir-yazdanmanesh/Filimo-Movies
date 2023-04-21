@@ -4,16 +4,16 @@ package com.test.network.di
 import dagger.Lazy
 import dagger.Module
 import dagger.Provides
-import interceptor.CacheInterceptor
-import interceptor.ClientInterceptor
-import interceptor.HeaderInterceptor
-import interceptor.ServerConnection
+import com.test.network.interceptor.CacheInterceptor
+import com.test.network.interceptor.ClientInterceptor
+import com.test.network.interceptor.HeaderInterceptor
+import com.test.network.interceptor.ServerConnection
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import service.MovieService
-import utils.Const
+import com.test.network.service.MovieService
+import com.test.network.utils.Const
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 

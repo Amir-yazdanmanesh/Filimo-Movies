@@ -15,8 +15,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
-import com.test.filimo.R
-import utils.ToastyMode
+import com.test.core.R
+import com.test.core.utils.ToastyMode
 import javax.inject.Inject
 
 abstract class BaseFragmentRedux<DB : ViewDataBinding, STATE : State, ACTION : Action, VM : BaseViewModelRedux<STATE, ACTION>> :
