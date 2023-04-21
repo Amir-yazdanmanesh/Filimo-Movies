@@ -12,7 +12,6 @@ apply {
 
 android {
     compileSdk = Android.compileSdk
-    namespace = Android.applicationId
 
     defaultConfig {
         applicationId = Android.applicationId
