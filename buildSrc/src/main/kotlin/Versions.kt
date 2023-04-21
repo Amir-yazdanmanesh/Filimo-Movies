@@ -14,7 +14,6 @@ object Versions {
     const val dagger = "2.40.5"
     const val retrofit = "2.9.0"
     const val logging_interceptor = "4.9.3"
-    const val moshi = "2.9.0"
     const val timber = "5.0.1"
     const val multidex = "2.0.1"
     const val coroutine = "1.3.9"
@@ -29,5 +28,5 @@ object Versions {
     const val glide = "4.12.0"
     const val mokito = "4.1.0"
     const val mockk = "1.12.0"
-
+    const val gson_converter = "2.9.0"
 }
