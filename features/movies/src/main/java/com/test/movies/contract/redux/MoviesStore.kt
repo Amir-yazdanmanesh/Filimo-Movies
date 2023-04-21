@@ -6,7 +6,7 @@ import com.test.movies.contract.MoviesState
 import javax.inject.Inject
 
 open class MoviesStore @Inject constructor(
-    moviesMiddleware: MoviesBaseMiddleware
+    moviesMiddleware: MoviesMiddleware
 ): BaseStore<MoviesState, MoviesAction>(
     initialState = MoviesState.initialize(),
     reducer = MoviesReducer(),
