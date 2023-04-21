@@ -1,0 +1,37 @@
+apply plugin: 'com.android.library'
+apply from: "$rootDir/android-common-build.gradle"
+apply plugin: "androidx.navigation.safeargs.kotlin"
+
+android {
+    buildFeatures {
+        dataBinding true
+    }
+
+    defaultConfig {
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+}
+
+kapt {
+    correctErrorTypes = true
+}
+
+dependencies {
+
+    implementation project(Modules.core)
+    implementation project(Modules.navigator)
+    implementation project(Modules.commonEntity)
+    implementation project(Modules.commonJvm)
+    implementation Libs.kotlin_coroutines
+    implementation Libs.dagger
+    kapt Libs.dagger_kapt
+    implementation(Libs.navigation_component_fragment)
+    implementation(Libs.navigation_component_ui)
+
+    implementation Libs.view_model_scope
+
+    implementation Libs.epoxy
+    implementation Libs.epoxy_data_binding
+    kapt Libs.epoxy_kapt
+}
