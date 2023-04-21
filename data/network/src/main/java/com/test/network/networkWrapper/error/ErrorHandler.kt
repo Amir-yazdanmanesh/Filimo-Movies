@@ -1,8 +1,8 @@
-package networkWrapper.error
+package com.test.network.networkWrapper.error
 
 import com.test.common_jvm.ErrorEntity
 import com.test.common_jvm.ResultWrapper
-import networkWrapper.RetryPolicy
+import com.test.network.networkWrapper.RetryPolicy
 import retrofit2.Response
 
 interface ErrorHandler {

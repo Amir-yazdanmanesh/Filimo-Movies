@@ -1,4 +1,4 @@
-package networkWrapper.connectivity
+package com.test.network.networkWrapper.connectivity
 
 internal object ConnectivityPublisher {
     private val subscribers = Connectivity.IDS.map { mutableListOf<ConnectivityPublisherDelegate>() }

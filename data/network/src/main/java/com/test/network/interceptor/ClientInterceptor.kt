@@ -1,4 +1,4 @@
-package interceptor
+package com.test.network.interceptor
 
 import android.app.Application
 import android.content.Context

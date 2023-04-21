@@ -1,6 +1,6 @@
-package networkWrapper.connectivity
+package com.test.network.networkWrapper.connectivity
 
-import networkWrapper.General
+import com.test.network.networkWrapper.General
 
 class Connectivity(val status: Int, val callback: (() -> Unit?)? = null) {
     companion object {

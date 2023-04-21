@@ -1,4 +1,4 @@
-package com.test.repository
+package com.test
 
 import com.test.common_entity.MoviesList
 import com.test.common_jvm.ResultWrapper

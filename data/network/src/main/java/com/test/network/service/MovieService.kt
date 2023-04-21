@@ -1,4 +1,4 @@
-package service
+package com.test.network.service
 
 
 import com.test.common_entity.MoviesList

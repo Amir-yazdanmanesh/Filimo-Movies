@@ -1,4 +1,4 @@
-package networkWrapper
+package com.test.network.networkWrapper
 
 import com.test.common_jvm.ErrorEntity
 import com.test.common_jvm.NoInternetException
@@ -6,9 +6,9 @@ import com.test.common_jvm.ResultWrapper
 import com.test.common_jvm.ServerConnectionException
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.withLock
-import networkWrapper.connectivity.Connectivity
-import networkWrapper.connectivity.ConnectivityPublisher
-import networkWrapper.error.GeneralErrorHandlerImpl
+import com.test.network.networkWrapper.connectivity.Connectivity
+import com.test.network.networkWrapper.connectivity.ConnectivityPublisher
+import com.test.network.networkWrapper.error.GeneralErrorHandlerImpl
 import retrofit2.Response
 import java.io.IOException
 

@@ -1,4 +1,4 @@
-package networkWrapper
+package com.test.network.networkWrapper
 
 data class RetryPolicy(
    val times: Int = 5,

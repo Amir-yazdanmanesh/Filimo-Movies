@@ -1,4 +1,4 @@
-package utils;
+package com.test.core.utils;
 
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 

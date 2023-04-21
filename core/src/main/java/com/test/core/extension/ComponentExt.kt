@@ -1,4 +1,4 @@
-package extension
+package com.test.core.extension
 
 import android.content.Context
 import androidx.fragment.app.Fragment

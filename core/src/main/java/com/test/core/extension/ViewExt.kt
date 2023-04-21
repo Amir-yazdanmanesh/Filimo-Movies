@@ -1,4 +1,4 @@
-package extension
+package com.test.core.extension
 
 import android.view.View
 import androidx.appcompat.widget.SearchView

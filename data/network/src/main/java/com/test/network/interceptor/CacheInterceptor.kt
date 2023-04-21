@@ -1,4 +1,4 @@
-package interceptor
+package com.test.network.interceptor
 
 import okhttp3.CacheControl
 import okhttp3.Interceptor

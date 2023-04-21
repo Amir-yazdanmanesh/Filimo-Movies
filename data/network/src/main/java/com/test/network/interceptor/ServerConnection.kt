@@ -1,4 +1,4 @@
-package interceptor
+package com.test.network.interceptor
 
 import com.test.common_jvm.ServerConnectionException
 import okhttp3.Interceptor

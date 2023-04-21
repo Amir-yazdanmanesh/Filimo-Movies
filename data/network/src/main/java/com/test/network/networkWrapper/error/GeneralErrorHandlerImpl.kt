@@ -1,4 +1,4 @@
-package networkWrapper.error
+package com.test.network.networkWrapper.error
 
 import android.database.sqlite.SQLiteException
 import com.test.common_jvm.ErrorEntity

@@ -1,4 +1,4 @@
-package networkWrapper
+package com.test.network.networkWrapper
 
 import kotlinx.coroutines.sync.Mutex
 

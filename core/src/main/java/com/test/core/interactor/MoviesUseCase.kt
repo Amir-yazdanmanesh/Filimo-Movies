@@ -1,6 +1,6 @@
-package interactor
+package com.test.core.interactor
 
-import com.test.repository.MoviesRepository
+import com.test.MoviesRepository
 import javax.inject.Inject
 
 open class MoviesUseCase @Inject constructor(
