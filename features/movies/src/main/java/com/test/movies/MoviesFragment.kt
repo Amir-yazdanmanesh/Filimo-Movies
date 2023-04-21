@@ -42,30 +42,28 @@ class MoviesFragment :
     }
 
     override fun renderViewState(viewState: MoviesState) {
+        binding.apply {
         if (viewState.isLoading) {
             startShimmer()
-            binding.emptyList.gone()
+            emptyList.gone()
+            recyclerView.gone()
         } else {
             stopShimmer()
+            recyclerView.visible()
         }
 
-        val errorMessage = viewState.errorMessage
-        if (errorMessage.isNotEmpty()) {
-            Toast.makeText(requireContext(), errorMessage, Toast.LENGTH_SHORT).show()
-        }
         if (viewState.isSearchResultEmpty) {
-            binding.emptyListText.text = getString(R.string.movie_not_found)
+            emptyListText.text = getString(R.string.movie_not_found)
         } else {
-            binding.emptyListText.text = getString(R.string.empty_list_text)
+            emptyListText.text = getString(R.string.empty_list_text)
         }
 
-        if (viewState.isListMoviesEmpty) {
-            binding.emptyList.visible()
+        if (viewState.isListMoviesEmpty && !viewState.isLoading) {
+            emptyList.visible()
         } else
-            binding.emptyList.gone()
+            emptyList.gone()
 
-
-        binding.recyclerView.withModels {
+        recyclerView.withModels {
             viewState.movies.forEach { movie ->
                 movie {
                     id(movie.id)
@@ -75,10 +73,9 @@ class MoviesFragment :
                     }
                 }
             }
-
+        }
         }
     }
-
     fun stopShimmer() {
         if (binding.moviesShimmer.isShimmerStarted) {
             binding.moviesShimmer.hideShimmer()
