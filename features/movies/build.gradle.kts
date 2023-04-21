@@ -1,7 +1,7 @@
+
 plugins {
     id("com.android.library")
     kotlin("android")
-    kotlin("kapt")
 }
 
 apply {
@@ -9,8 +9,7 @@ apply {
 }
 
 dependencies {
-    testImplementation(Tests.coroutines_test)
-    testImplementation(Tests.mockk)
+    implementation (Libs.shimmer)
     testImplementation(Tests.mockito)
-    implementation(Libs.shimmer)
+    testImplementation(Tests.mockk)
 }
