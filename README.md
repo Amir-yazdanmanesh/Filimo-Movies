@@ -78,6 +78,9 @@ The project uses the following core dependencies:
 
 The specific dependencies for each module can be found in their respective build.gradle files.
 
+## Testing
+This project includes unit tests for the Movies module and repository-impl, as well as instrumented tests in the App module. The unit tests were written using Mockito and Mockk, and the instrumented tests were written using Espresso and JUnit 4. These tests help ensure the reliability and stability of the app, and demonstrate good coding practices.
+
 ## Installation
 Clone the repository and open the project in Android Studio. Gradle will automatically download the necessary dependencies.
 
@@ -88,3 +91,11 @@ To run the unit tests, select the module and run the **`test`** configuration. T
 ## Contributing
 
 Please feel free to contribute to this project by submitting pull requests or opening issues.
+
+## Screenshot
+
+<img src="/photo/screenshot.jpg" alt="Screenshot of the app" width="300">
+
+## Use Case Diagram
+
+![Use Case Diagram](/photo/app_diagram.png "Use Case Diagram")
