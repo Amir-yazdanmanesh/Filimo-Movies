@@ -25,10 +25,14 @@ inline fun SearchView.onQueryTextListener(crossinline listener: (String) -> Unit
         override fun onQueryTextSubmit(query: String?) = true
 
         override fun onQueryTextChange(newText: String?): Boolean {
-            listener(newText.orEmpty())
+            val lastQuery = newText.orEmpty()
+            handler.removeCallbacksAndMessages(null)
+            handler.postDelayed({
+                listener(lastQuery)
+            }, 1500)
             return true
         }
     })
-
 }
+
 

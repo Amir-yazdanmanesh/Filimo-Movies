@@ -29,14 +29,8 @@ class MoviesFragment :
         binding.apply {
             searchMovies.onActionViewExpanded()
             recyclerView.setHasFixedSize(true)
-            searchMovies.onQueryTextListener { it ->
-                Timer().schedule(object : TimerTask() {
-                    override fun run() {
-                        Handler(Looper.getMainLooper()).post {
-                            viewModel.getMoviesEvent(it)
-                        }
-                    }
-                }, 1000)
+            searchMovies.onQueryTextListener {
+              viewModel.getMoviesEvent(it)
             }
         }
     }
