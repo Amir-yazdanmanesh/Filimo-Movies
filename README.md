@@ -88,3 +88,11 @@ To run the unit tests, select the module and run the **`test`** configuration. T
 ## Contributing
 
 Please feel free to contribute to this project by submitting pull requests or opening issues.
+
+## Screenshot
+
+<img src="/photo/screenshot.jpg" alt="Screenshot of the app" width="300">
+
+## Use Case Diagram
+
+![Use Case Diagram](/photo/app_diagram.png "Use Case Diagram")
