@@ -8,4 +8,5 @@ object Tests {
     const val mockito = "org.mockito.kotlin:mockito-kotlin:${Versions.mokito}"
     const val mockk = "io.mockk:mockk:${Versions.mockk}"
     const val coroutines_test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutines_test}"
+    const val fragment_testing = "androidx.fragment:fragment-testing:${Versions.fragment_testing}"
 }

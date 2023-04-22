@@ -16,7 +16,6 @@
             android:id="@+id/app_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
-            android:background="?attr/colorPrimary"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -26,7 +25,7 @@
             app:subtitleTextAppearance="@color/colorGrey"
             >
 
-            <androidx.appcompat.widget.SearchView
+            <SearchView
                 app:theme="@style/SearchViewStyle"
                 android:id="@+id/search_movies"
                 android:layout_width="match_parent"

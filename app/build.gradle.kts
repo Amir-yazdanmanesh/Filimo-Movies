@@ -68,6 +68,7 @@ dependencies {
     implementation(Libs.navigation_component_fragment)
     implementation(Libs.retrofit)
     implementation(Libs.logging_interceptor)
+    implementation(Tests.fragment_testing)
 
 }
 

@@ -30,4 +30,5 @@ object Versions {
     const val mockk = "1.12.0"
     const val coroutines_test = "1.6.0"
     const val gson_converter = "2.9.0"
+    const val fragment_testing = "1.5.7"
 }

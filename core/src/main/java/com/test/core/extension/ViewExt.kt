@@ -1,7 +1,7 @@
 package com.test.core.extension
 
 import android.view.View
-import androidx.appcompat.widget.SearchView
+import android.widget.SearchView
 import androidx.core.view.isVisible
 
 fun View.gone() {
