@@ -1,6 +1,6 @@
 # Filimo Movies
 
-This is an Android app that allows users to view a list of movies from the Filimo API and search for movies. It was built using the Model-View-Intent (MVI) pattern, coroutines for asynchronous programming, clean architecture for code organization, navigation components for navigating between screens, Dagger 2 for dependency injection, Kotlin DSL for Gradle configuration, Epoxy for building complex RecyclerViews, Room for local data storage, Retrofit for network communication, data binding for connecting UI components to data sources, and includes both unit and instrumented tests.
+This is an Android app that allows users to view a list of movies from the Filimo API and search for movies. It was built using the Model-View-Intent (MVI) pattern, coroutines for asynchronous programming, clean architecture for code organization, navigation components for navigating between screens, Dagger 2 for dependency injection, Kotlin DSL for Gradle configuration, Epoxy for building complex RecyclerViews, Retrofit for network communication, data binding for connecting UI components to data sources, and includes both unit and instrumented tests.
 
 
 
@@ -32,8 +32,6 @@ The project is organized in several modules that follow Clean Architecture princ
 - Navigation Components for app navigation.
 
 - Epoxy for building complex RecyclerViews.
-
-- Room for local database storage.
 
 - Retrofit for network requests.
 
@@ -73,13 +71,12 @@ The project uses the following core dependencies:
 
 - Epoxy
 
-- Shimmer
 
 
 The specific dependencies for each module can be found in their respective build.gradle files.
 
 ## Testing
-This project includes unit tests for the Movies module and repository-impl, as well as instrumented tests in the App module. The unit tests were written using Mockito and Mockk, and the instrumented tests were written using Espresso and JUnit 4. These tests help ensure the reliability and stability of the app, and demonstrate good coding practices.
+This project includes unit tests for the **`Movies`** module and **`repository-impl`**, as well as instrumented tests in the **`App`** module. The unit tests were written using Mockito and Mockk, and the instrumented tests were written using Espresso and JUnit 4. These tests help ensure the reliability and stability of the app, and demonstrate good coding practices.
 
 ## Installation
 Clone the repository and open the project in Android Studio. Gradle will automatically download the necessary dependencies.
