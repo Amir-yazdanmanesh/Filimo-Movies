@@ -1,6 +1,6 @@
-# Filimo Movies
+# Movies Application
 
-This is an Android app that allows users to view a list of movies from the Filimo API and search for movies. It was built using the Model-View-Intent (MVI) pattern, coroutines for asynchronous programming, clean architecture for code organization, navigation components for navigating between screens, Dagger 2 for dependency injection, Kotlin DSL for Gradle configuration, Epoxy for building complex RecyclerViews, Retrofit for network communication, data binding for connecting UI components to data sources, and includes both unit and instrumented tests.
+This is an Android app that allows users to view a list of movies and search for movies. It was built using the Model-View-Intent (MVI) pattern, coroutines for asynchronous programming, clean architecture for code organization, navigation components for navigating between screens, Dagger 2 for dependency injection, Kotlin DSL for Gradle configuration, Epoxy for building complex RecyclerViews, Retrofit for network communication, data binding for connecting UI components to data sources, and includes both unit and instrumented tests.
 
 
 
@@ -40,37 +40,6 @@ The project is organized in several modules that follow Clean Architecture princ
 - Unit tests for testing business logic and other components.
 
 - Instrumented tests for testing app functionality on a device or emulator.
-
-
-## Dependencies
-The project uses the following core dependencies:
-
-- AndroidX Core
-
-- AndroidX AppCompat
-
-- Material Design
-
-- Constraint Layout
-
-- JUnit 4
-
-- AndroidX JUnit
-
-- AndroidX Espresso
-
-- And the following common dependencies:
-
-- Kotlin Coroutines
-
-- Dagger 2
-
-- Navigation Component
-
-- ViewModel Scope
-
-- Epoxy
-
 
 
 The specific dependencies for each module can be found in their respective build.gradle files.
